@@ -8,7 +8,7 @@ public class Api {
         cats[0] = new Cat("Mars", 0);
         cats[1] = new Cat("Luna", 0);
         cats[2] = new Cat("Hoki", 0);
-        Plate plate = new Plate(new Eat("Meat", 10));
+        Plate plate = new Plate(new Eat("Meat", 7));
         CatService catService = new CatService(cats[0]);
         CatService catService1 = new CatService(cats[1]);
         CatService catService2 = new CatService(cats[2]);
